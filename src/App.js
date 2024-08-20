@@ -1,13 +1,14 @@
-import logo from './assets/images/logo.svg';
+import pua from './assets/gif/pua.gif';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={pua} alt="My animation" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Fridge2Recipe
         </p>
         <a
           className="App-link"
