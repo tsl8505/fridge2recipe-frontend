@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 80%; 
+}
+
+.input-container input {
+  width: 100%; /* Adjust as necessary */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position right below the input field */
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto; /* Allow scrolling if the list is too long */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 0;
+}
+
+button {
+  margin: 16px; 
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.main-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; 
+}
+
+.pantry {
+  width: 250px; 
+  background-color: #f4f4f4; 
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+  overflow-y: auto; 
+}
+
+.recipe-container {
+  flex-grow: 1; 
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #fff; 
+  position: relative; 
+}
